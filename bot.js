@@ -34,5 +34,4 @@ client.on('message', message => {//restart
 
 
     });
-});
  client.login(process.env.BOT_TOKEN);
