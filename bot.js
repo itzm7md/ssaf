@@ -21,7 +21,7 @@ if (message.content.startsWith(adminprefix + 'stream')) {
 		if (message.content.startsWith(adminprefix+ 'l')) {
   client.user.setActivity(argresult, {type: "LISTENING"});
     message.channel.sendMessage(`**${argresult} تم تغير اللسننق **`)
-		});
+		
 client.on('message', message => {//restart
     if(message.content === adminprefix + "restart") {
           if (!devs.includes(message.author.id)) return;
